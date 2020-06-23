@@ -28,9 +28,9 @@
         $create_txt_file = file_put_contents($txt_path.$id.".txt", $link); // create a new txt file and add inside it the long link
  
         if( $create_txt_file ){
-            $website = "http://phpurlshort.herokuapp.com/url-short-txt/"; // enter your website link
+            $website = "http://phpurlshort.herokuapp.com/"; // enter your website link
             $short_link = $website.$id; // short link
-            echo 'Your Short Link: <a href="'.$short_link.'" target="_blank">'.$short_link.'</a>';
+            echo 'Your Short Link: <a href="'.$link.'" target="_blank">'.$short_link.'</a>';
         }else{
             echo "We have some errors! Please try later.";
         }
