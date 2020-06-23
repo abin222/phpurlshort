@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/12126420/isset-php-isset-getsomething-getsomething/12126483
